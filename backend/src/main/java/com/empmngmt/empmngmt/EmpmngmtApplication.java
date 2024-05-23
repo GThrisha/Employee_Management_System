@@ -18,17 +18,17 @@ public class EmpmngmtApplication implements CommandLineRunner {
 	private EmployeeRepository employeeRepository;
 	@Override
 	public void run(String args[]) throws Exception{
-//		Employee employee= new Employee();
-//		employee.setFirstName("Thrisha");
-//		employee.setLastName("G");
-//		employee.setEmailId("thrishag1804@gmail.com");
-//		employeeRepository.save(employee);
-//
-//		Employee employee1= new Employee();
-//		employee1.setFirstName("Yeshwitha");
-//		employee1.setLastName("G");
-//		employee1.setEmailId("yeshwitha27@gmail.com");
-//		employeeRepository.save(employee1);
+		Employee employee= new Employee();
+		employee.setFirstName("Thrisha");
+		employee.setLastName("G");
+		employee.setEmailId("thrishag1804@gmail.com");
+		employeeRepository.save(employee);
+
+		Employee employee1= new Employee();
+		employee1.setFirstName("Yeshwitha");
+		employee1.setLastName("G");
+		employee1.setEmailId("yeshwitha27@gmail.com");
+		employeeRepository.save(employee1);
 
 	}
 }
