@@ -53,7 +53,7 @@ const AddEmployeeComponent = () => {
     <div>
       <div className='container'>
         <div className='row'>
-            <div className='card col-md-6 offset-md-6 offset-md-3'>
+            <div className='card col-md-6 offset-md-3'>
                 {title()}
                 <div className='card-body'>
                     <form>
