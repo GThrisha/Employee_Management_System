@@ -23,7 +23,6 @@ const AddEmployeeComponent = () => {
 
         }else{
         EmployeeService.createEmployee(employee).then((response)=>{
-            console.log(response.data);
             navigate('/employees');
         }).catch((err)=>{
             console.log(err)
